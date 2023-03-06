@@ -1,4 +1,6 @@
-# SLAM-Jam, BaaMeows 2023
+# SLAM-Jam
+BaaMeows 2023
+
 this program literally just grabs a frame from whatever camera happens
 to be at index zero and shoves it into a window 60 times a second.
 so far. still working on all of the slamming and the jamming. and... stuff.
