@@ -73,8 +73,7 @@ fn main() {
             buffer[i * 3 + 2] = pixels[i * 4];
         }
         // take the buffer and turn it into an fltk RgbImage (WHYYYYY) so that it can be displayed
-        let image = fltk::image::RgbImage::new( // you monsters. the horror. what would the image libary think of this. its crying right now.
-            &buffer,
+        let image = fltk::image::RgbImage::new(&buffer, // you monsters. the horror. what would the image libary think of this. its crying right now.
             WIDTH.try_into().unwrap(), HEIGHT.try_into().unwrap(), /* I’m killing you. I’m killing you. I don’t care about anything else, 
             I don’t give a shit about anything else, I- My programming is just “GET THAT FUCKING GUY RIGHT NOW”. It doesn’t- There’s no, like, “Oh, he’s running? 
             Oh, back off a little!”, it’s just **THUMP** **THUMP THUMP** until I get you. */
